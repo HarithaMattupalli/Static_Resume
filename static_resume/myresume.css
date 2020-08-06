@@ -1,0 +1,145 @@
+.mainDiv {
+  background: lightgrey;
+  display: flex;
+  padding: 5%;
+  justify-content: space-around;
+  border: 5px solid grey;
+}
+
+.leftDiv {
+  background: white;
+  width: 285px;
+  padding: 15px;
+  margin: 10;
+  border: 5px solid grey;
+}
+
+.l1 {
+  background: lightcyan;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  margin: 10;
+  border: 5px solid grey;
+}
+
+/* .l2 {
+  background: lightcyan;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  margin: 10;
+  margin-top: 5%;
+  border: 5px solid grey;
+} */
+
+.rightDiv {
+  background: white;
+  width: 700px;
+  padding: 15px;
+  margin: 10;
+  border: 5px solid grey;
+}
+
+.rightChild {
+  /* used in main.js */
+  width: 90%;
+  border: 5px solid grey;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.r1 {
+  background: lightcyan;
+  padding: 15px;
+  margin: 10;
+  border: 5px solid grey;
+}
+
+.r2 {
+  background: lightcyan;
+  padding: 15px;
+  margin: 10;
+  margin-top: 5%;
+  border: 5px solid grey;
+}
+
+.r3 {
+  background: lightcyan;
+  padding: 15px;
+  margin: 10;
+  margin-top: 5%;
+  border: 5px solid grey;
+}
+
+.r4 {
+  background: lightcyan;
+  padding: 15px;
+  margin: 10;
+  margin-top: 5%;
+  border: 5px solid grey;
+}
+
+img {
+  width: 90%;
+  border-radius: 40px;
+  padding: 5px;
+  box-shadow: 10px 5px 5px white;
+}
+
+table,th,td{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+  *{
+    /* font-size: medium; */
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mainDiv {
+    display: inline-block;
+  }
+
+  .leftDiv {
+    width: 100vw;
+  }
+
+  .rightDiv {
+    width: 100vw;
+    margin-top: 10%;
+  }
+
+}
+
+@media screen and (min-width:501px) and (max-width:780px) {
+  *{
+    font-size: large;
+  }
+  p {
+    overflow-wrap: break-word;
+  }
+
+  .mainDiv {
+    display: inline-block;
+  }
+
+  .leftDiv {
+    width: 100%;
+  }
+
+  .l1 {
+    text-align: center;
+  }
+
+  .l2 {
+    display: flex;
+    /* flex-wrap:wrap; */
+  }
+
+  .rightDiv {
+    width: 100%;
+    margin-top: 10%;
+  }
+}
